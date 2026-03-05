@@ -53,14 +53,14 @@ const Todo = () => {
                           
                           
                            <div className="todo-img1">
-                               <img src={todo2} alt=""width={350} height={150}/>
+                               <img src={todo2} alt="Todo app screen 1" />
                                </div>
                                <div className="todo-img1">
-                                   <img src={todo1} alt=""width={350} height={150} />
+                                   <img src={todo1} alt="Todo app screen 2" />
            
                                </div>
                                 <div className="todo-img1">
-                                   <img src={todo3} alt=""width={350} height={150}/>
+                                   <img src={todo3} alt="Todo app screen 3" />
            
                                </div> 
            

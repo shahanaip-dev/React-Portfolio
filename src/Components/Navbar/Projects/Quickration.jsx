@@ -60,14 +60,14 @@ This web application “Quick Ration” will help customers to order available i
                        
                        
                         <div className="ration-img1">
-                            <img src={ration2} alt=""width={350} height={150}/>
+                            <img src={ration2} alt="Quick Ration screen 1" />
                             </div>
                             <div className="ration-img1">
-                                <img src={ration1} alt=""width={350} height={150} />
+                                <img src={ration1} alt="Quick Ration screen 2" />
         
                             </div>
                             <div className="ration-img1">
-                                <img src={ration3} alt=""width={350} height={150} />
+                                <img src={ration3} alt="Quick Ration screen 3" />
         
                             </div>
         

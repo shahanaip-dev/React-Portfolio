@@ -50,14 +50,14 @@ const Rentwell = () => {
                
                
                 <div className="img1">
-                    <img src={rent1} alt=""width={350} height={150}/>
+                    <img src={rent1} alt="Rentwell screen 1" />
                     </div>
                     <div className="img1">
-                        <img src={rent2} alt=""width={350} height={150} />
+                        <img src={rent2} alt="Rentwell screen 2" />
 
                     </div>
                    <div className="img1">
-                        <img src={rent3} alt=""width={350} height={150}/>
+                        <img src={rent3} alt="Rentwell screen 3" />
 
                     </div> 
 

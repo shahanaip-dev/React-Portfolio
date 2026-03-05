@@ -54,14 +54,14 @@ const Wether = () => {
                        
                        
                         <div className="weather-img1">
-                            <img src={w2} alt=""width={350} height={150}/>
+                            <img src={w2} alt="Weather app screen 1" />
                             </div>
                             <div className="weather-img1">
-                                <img src={w1} alt=""width={350} height={150} />
+                                <img src={w1} alt="Weather app screen 2" />
         
                             </div>
                             <div className="weather-img1">
-                                <img src={w3} alt=""width={350} height={150}/>
+                                <img src={w3} alt="Weather app screen 3" />
         
                             </div>
         

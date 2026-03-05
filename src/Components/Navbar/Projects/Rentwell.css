@@ -10,18 +10,20 @@ flex-direction: column;
 
 }
 .rent-well{
-    margin: 80px 170px;
+    margin: clamp(40px, 6vw, 80px) auto;
+    padding: 0 clamp(16px, 6vw, 80px);
+    max-width: 1200px;
 }
 .rent-well_head h1{
-    font-size: 70px;
+    font-size: clamp(34px, 6vw, 64px);
     font-weight: 500;
-    padding: 0 30px;
+    padding: 0 20px;
     background: linear-gradient(to right, rgb(222, 222, 80), rgb(85, 156, 73));
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-padding: 30px;
-margin: 30px;
+padding: 20px 0;
+margin: 20px 0;
 
 }
 
@@ -33,9 +35,9 @@ margin: 30px;
 }
 .rent-overview h2{
     align-items: center;
-    font-size: 50px;
+    font-size: clamp(24px, 4vw, 40px);
     font-weight: 600;
-    padding: 0 30px;
+    padding: 0 20px;
     background: linear-gradient(to right, rgb(222, 222, 80), rgb(85, 156, 73));
     background-clip: text;
     -webkit-background-clip: text;
@@ -44,16 +46,16 @@ margin: 30px;
 }
 .rent-overview p{
     align-items: center;
-    font-size: 24px;
+    font-size: clamp(15px, 2.2vw, 20px);
     font-weight: 500;
-    padding: 20px;
+    padding: 12px 0;
 
 }
 .rent-key h2{
     align-items: center;
-    font-size: 50px;
+    font-size: clamp(24px, 4vw, 40px);
     font-weight: 600;
-    padding: 0 30px;
+    padding: 0 20px;
     background: linear-gradient(to right, rgb(222, 222, 80), rgb(85, 156, 73));
     background-clip: text;
     -webkit-background-clip: text;
@@ -62,9 +64,9 @@ margin: 30px;
 }
 .rent-key li{
     align-items: center;
-    font-size: 24px;
+    font-size: clamp(15px, 2.2vw, 20px);
     font-weight: 500;
-    padding: 20px;
+    padding: 10px 0;
     list-style: circle;
 
 
@@ -72,9 +74,9 @@ margin: 30px;
 }
 .rent-tech h2{
     align-items: center;
-    font-size: 50px;
+    font-size: clamp(24px, 4vw, 40px);
     font-weight: 600;
-    padding: 0 30px;
+    padding: 0 20px;
     background: linear-gradient(to right, rgb(222, 222, 80), rgb(85, 156, 73));
     background-clip: text;
     -webkit-background-clip: text;
@@ -83,9 +85,9 @@ margin: 30px;
 }
 .rent-tech li{
     align-items: center;
-    font-size: 24px;
+    font-size: clamp(15px, 2.2vw, 20px);
     font-weight: 500;
-    padding: 20px;
+    padding: 10px 0;
     list-style: circle;
 
 
@@ -94,11 +96,12 @@ margin: 30px;
 .link{
     margin-top: 50px;
        align-items: center;
-    font-size: 24px;
+    font-size: clamp(15px, 2.2vw, 20px);
     font-weight: 600;
-    padding: 0 30px;
+    padding: 0;
     display: flex;
-  
+    flex-wrap: wrap;
+    gap: 12px 20px;
    width: 100%;
     
 
@@ -115,13 +118,14 @@ background-clip: text;
 .link-git a{
  text-decoration: none;
  color: antiquewhite;
+ overflow-wrap: anywhere;
 }
 
 .link-git{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 80px;
+    gap: 12px;
 
 }
 .img{
@@ -130,7 +134,9 @@ background-clip: text;
    
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
     margin-bottom: 100px;
    
    
@@ -139,7 +145,7 @@ background-clip: text;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 80px;
+    gap: 16px;
    
     
 }
@@ -153,50 +159,58 @@ background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     align-items: center;
-    font-size: 50px;
+    font-size: clamp(24px, 4vw, 40px);
     font-weight: 600;
-    padding: 0 30px;
+    padding: 0 20px;
+}
+.img1 img{
+    width: min(100%, 360px);
+    height: auto;
+    display: block;
+    border-radius: 14px;
+    box-shadow: var(--shadow-sm);
 }
 
 @media(max-width:768px){
     .rent-well{
-        margin: 50px 70px;
+        margin: 40px auto;
+        padding: 0 20px;
     }
     .rent-well_head h1{
-        font-size: 50px;
+        font-size: clamp(28px, 8vw, 40px);
 
     }
     .rent-overview h2{
-        font-size: 34px;
+        font-size: clamp(22px, 6vw, 30px);
     }
     .rent-overview p{
-        font-size: 20px;
+        font-size: 16px;
     }
     .rent-key h2{
-        font-size: 34px;
+        font-size: clamp(22px, 6vw, 30px);
     }
     .rent-key li{
-        font-size: 20px;
+        font-size: 16px;
     }
     .rent-tech h2{
-        font-size: 34px;
+        font-size: clamp(22px, 6vw, 30px);
     }
     .rent-tech li{
-        font-size: 20px;
+        font-size: 16px;
     }
     .imgh2 h2{
-        font-size: 34px;
+        font-size: clamp(22px, 6vw, 30px);
     }
     .img{
         flex-direction: column;
         gap: 40px;
     }
     .link-git h2{
-        font-size: 34px;
+        font-size: clamp(22px, 6vw, 30px);
 
     }
     .link-git a{
-        font-size: 20px;
+        font-size: 16px;
     }
 
 
