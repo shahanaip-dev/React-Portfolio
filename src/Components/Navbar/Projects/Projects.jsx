@@ -17,7 +17,7 @@ const Projects = () => {
               </div>
               <div className="project-content">
                 <div className="project-header">
-                  <h3>Case Study {index + 1} of {projects.length}: {p.Ptitle}</h3>
+                  <h3>{p.Ptitle}</h3>
                 </div>
                 <p className="project-description">{p.overview}</p>
                 {p.tech && <p className="project-tech">{p.tech}</p>}

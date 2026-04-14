@@ -52,7 +52,7 @@ const Hero = () => {
           </div>
           
           <div className="hero-text">
-            <h2 className="hero-subtitle">Software Developer</h2>
+            <h2 className="hero-subtitle">Software FULL STACK Developer</h2>
             <h1 className="hero-title">I'm Fathima Shahana IP</h1>
             <p className="hero-description">I am a full stack entry-level MERN-Stack Developer</p>
             

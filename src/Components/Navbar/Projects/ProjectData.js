@@ -33,6 +33,24 @@ const projects=[
         image:'/img/wetherapp.png',
         link:"https://github.com/Fathimashahanaip/MERN-TODO_LIST_APP",
         href:"#todo"}
+    ,
+    {Ptitle:"FAIR-FEST",
+        overview:"For managing institutional fests from event setup to result publishing. Handles event configuration, team/group management, scheduling, and judge-based scoring with live scoreboard and result processing. Includes automated certificate/poster generation and role-based access control for secure fest management.",
+        key1:"Event setup, scheduling, and team/group management",
+        key2:"Judge-based scoring, live scoreboard, results, and certificates",
+        tech:"Next.js, NestJS, PostgreSQL",
+        image:'/img/fairfest.png',
+        link:"https://fair-fest.bairuhatech.com/",
+        href:"#fairfest"}
+    ,
+    {Ptitle:"BPMS",
+        overview:"Managed project, task, and leave workflows, along with meeting scheduling, and implemented role-based access for HR, Manager, Employee, and Intern modules, including Robotics Intern operations.",
+        key1:"Projects, tasks, leave, and meeting scheduling workflows",
+        key2:"Role-based access for HR, Manager, Employee, and Intern modules",
+        tech:"Next.js, NestJS, PostgreSQL",
+        image:'/img/bpms.png',
+        link:"https://bpms.bairuhatech.com/",
+        href:"#bpms"}
     
 ]
 export default projects

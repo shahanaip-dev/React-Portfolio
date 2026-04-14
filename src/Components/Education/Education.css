@@ -1,9 +1,7 @@
 .education {
-    margin: 120px 80px;
-    padding: 60px 40px;
+    margin: clamp(60px, 10vw, 120px) auto;
+    padding: clamp(30px, 6vw, 60px) clamp(20px, 5vw, 40px);
     max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .edu-title {
@@ -29,7 +27,7 @@
     bottom: -10px;
     left: 50%;
     transform: translateX(-50%);
-    width: 100px;
+    width: clamp(70px, 12vw, 100px);
     height: 4px;
     background: var(--primary-gradient);
     border-radius: 2px;
@@ -143,8 +141,8 @@
 }
 @media(max-width:768px) {
     .education {
-        margin: 80px 30px;
-        padding: 40px 20px;
+        margin: 70px auto;
+        padding: 30px 18px;
     }
     
     .edu-title {

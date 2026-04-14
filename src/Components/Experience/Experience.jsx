@@ -7,7 +7,7 @@ const Experience = () => {
       title: "Full Stack Developer Intern",
       company: "Bairuha Tech",
       location: "Kozhikode, India",
-      technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "JavaScript", "HTML", "CSS"],
+      technologies: ["React.js",'Next.js',"Node.js",'Nest.js',"MongoDB",'PostgreSQL',"Express.js", "JavaScript", "HTML"],
       period: "Jan 2026 – Present",
       description: [
         "Working as part of a cross-functional development team to design and build a real-world web application from requirements to implementation",

@@ -239,10 +239,8 @@ button:hover::before {
         transform: translateX(-50%) translateZ(0);
         max-width: fit-content;
         width: auto;
-        right: 0;
         width: calc(100% - 16px);
         max-width: 100%;
-        transform: translateZ(0);
     }
     
     .navbar-brand img {
